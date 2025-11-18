@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JS Animation Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dynamic Web Experience</h1>
+    </header>
+
+    <main>
+        
+        <!-- Part 1: CSS Transitions Demo -->
+        <section class="demo-section">
+            <h2>Part 1: CSS Transitions</h2>
+            <div class="hover-box">Hover over me!</div>
+            <p>This box uses a **CSS Transition** to smoothly change its background color and size on hover.</p>
+        </section>
+
+        <!-- Part 1: CSS Keyframe Animation Demo -->
+        <section class="demo-section">
+            <h2>Part 1: CSS Keyframe Animation</h2>
+            <div class="spinner-box"></div>
+            <p>This element uses a **CSS @keyframe animation** for continuous rotation, demonstrating a common loading indicator effect.</p>
+        </section>
+        
+        <hr>
+
+        <!-- Part 3: Combining CSS and JavaScript -->
+        <section class="demo-section">
+            <h2>Part 3: CSS Triggered by JavaScript</h2>
+            
+            <div class="trigger-container">
+                <div id="targetBox" class="animated-box">Click the button below!</div>
+                <button id="triggerAnimation">Trigger Animation (CSS Class Toggle)</button>
+            </div>
+            
+            <p id="calcOutput">Calculation Result (Check Console for Scope Demo)</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
